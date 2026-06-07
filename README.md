@@ -160,6 +160,24 @@ projects_antig/
 - UrbanEV informed thresholds but not directly integrated into pipeline
 
 ---
+## Presentation Deck
+
+The project presentation (`EV_Tariff_Optimization_Deck_final.pptx`) covers:
+
+| Slide | Content |
+|-------|---------|
+| 1 | Title — Agentic AI-Based Dynamic Tariff Optimization |
+| 2 | Data Landscape & Preprocessing (ACN-Data + UrbanEV) |
+| 3 | Key EDA Findings & Demand Behaviour |
+| 4 | Demand Prediction Agent — Modelling & Results |
+| 5 | Dynamic Tariff Optimization — Logic & Outcomes |
+| 6 | Monitoring & Learning Agent — Feedback Loop |
+| 7 | Business, Operational & Policy Implications |
+
+> Excludes cover page, executive summary, and appendix
+> as per submission guidelines.
+
+---
 
 ## Requirements
 
