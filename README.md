@@ -1,6 +1,6 @@
 # Agentic AI-Based Dynamic Tariff Optimization for EV Charging Networks
 
-**Society of Business ? Open Project 2026**
+**Society of Business & Open Project 2026**
 
 A self-improving agentic AI pricing engine that autonomously predicts 
 EV charging demand, recommends dynamic tariffs in real time, and 
@@ -148,17 +148,15 @@ projects_antig/
 | Dynamic Tariff Revenue | $3,577.62 | ?2,96,942.08 |
 | Revenue Gain | +$230.47 (+6.89%) | +?96,113.25 (+47.86%) |
 
-> **Note**: Dynamic tariffs were computed in USD ($0.25/kWh base rate) and converted to INR at 1 USD = ?83 for comparison against the ?15/kWh Indian market baseline.
-
----
+>---
 
 ## Assumptions & Limitations
 
-- Satisfaction is a proxy metric from tariff deviation ? not direct user feedback
-- R?=0.293 ? rule-based model underfits high-variance peaks
-- Revenue reported in USD; INR ?15/kWh comparison included for Indian market context
-- Utilization uses actual/predicted proxy ? no per-charger availability data
-- No causal claims ? all findings are correlational
+- Satisfaction is a proxy metric from tariff deviation – not direct user feedback
+- R²=0.293 – rule-based model underfits high-variance peaks
+- Revenue reported in USD; INR ₹15/kWh comparison included for Indian market context
+- Utilization uses actual/predicted proxy – no per-charger availability data
+- No causal claims – all findings are correlational
 - UrbanEV informed thresholds but not directly integrated into pipeline
 
 ---
