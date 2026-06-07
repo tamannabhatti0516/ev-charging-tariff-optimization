@@ -12,25 +12,25 @@ demand, and optimize EV infrastructure efficiency.
 ## Project Structure
 ```
 projects_antig/
-??? config/
-?   ??? settings.py           # Path configuration
+├── config/
+│   └── settings.py           # Path configuration
 ├── dataset/
 │   ├── stations.csv          # Station metadata
 │   ├── kpi_summary.csv       # KPI outputs from evaluation
 │   └── simulation_results.csv # Simulation run outputs
-??? notebooks/
-?   ??? main_analysis.ipynb   # Full analysis and simulation pipeline
-?   ??? eda_plots.png         # EDA visualizations
-?   ??? simulation_report.png # Simulation output chart
-??? src/
-?   ??? data_loader.py        # Loads stations and session data
-?   ??? preprocessing.py      # Cleans and aggregates hourly data
-?   ??? models.py             # All three AI agents
-?   ??? evaluator.py          # KPI computation and visualization
-??? .gitignore
-??? main.py                   # Main simulation entry point
-??? README.md
-??? requirements.txt
+├── notebooks/
+│   ├── main_analysis.ipynb   # Full analysis and simulation pipeline
+│   ├── eda_plots.png         # EDA visualizations
+│   └── simulation_report.png # Simulation output chart
+├── src/
+│   ├── data_loader.py        # Loads stations and session data
+│   ├── preprocessing.py      # Cleans and aggregates hourly data
+│   ├── models.py             # All three AI agents
+│   └── evaluator.py          # KPI computation and visualization
+├── .gitignore
+├── main.py                   # Main simulation entry point
+├── README.md
+└── requirements.txt
 ```
 
 ---
